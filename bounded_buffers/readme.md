@@ -1,18 +1,18 @@
-##Project Title
+## Project Title
 
 Producer-Consumer Problem with Semaphores in C++
 
-##Purpose
+## Purpose
 
 The purpose of this project is to demonstrate how to solve the classic Producer-Consumer problem using semaphores in C++. The problem involves two processes, a producer that produces data and adds it to a buffer, and a consumer that removes data from the buffer and uses it. The goal is to ensure that the producer and consumer do not access the buffer at the same time, which can lead to race conditions and other issues. Semaphores are a synchronization technique that can be used to ensure that only one process can access the buffer at a time.
 
-##Version
+## Version
 
 This is version 1.0 of the Producer-Consumer problem with Semaphores in C++.
 
-##How-To Guide
+## How-To Guide
 
-    ###Files:
+    ### Files:
 
         -first_try.cpp: This is the C++ file that contains a version of the Producer-Consumer problem that has a Producer limitation. 
             the CSCI331ProjectTwo.cpp file was updated based on this code.
@@ -20,7 +20,7 @@ This is version 1.0 of the Producer-Consumer problem with Semaphores in C++.
         -bounded_buffer_semaphore.cpp: This is the main C++ file that contains the code for the Producer-Consumer problem with semaphores.
 
 
-    ###Building and Running the CPP file:
+    ### Building and Running the CPP file:
 
         1.Open a terminal window and navigate to the project folder.
 
