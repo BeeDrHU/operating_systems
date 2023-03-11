@@ -14,8 +14,7 @@ This is version 1.0 of the Producer-Consumer problem with Semaphores in C++.
 
     ### Files:
 
-        -first_try.cpp: This is the C++ file that contains a version of the Producer-Consumer problem that has a Producer limitation. 
-            the CSCI331ProjectTwo.cpp file was updated based on this code.
+        -first_try.cpp: This is the C++ file that contains a version of the Producer-Consumer problem that has a Producer limitation. The bounded_buffer_semaphore.cpp file was updated based on this code.
 
         -bounded_buffer_semaphore.cpp: This is the main C++ file that contains the code for the Producer-Consumer problem with semaphores.
 
@@ -25,13 +24,13 @@ This is version 1.0 of the Producer-Consumer problem with Semaphores in C++.
         1.Open a terminal window and navigate to the project folder.
 
         2.Compile the main.cpp file using the following command:
-
+```
             g++ bounded_buffer_semaphore.cpp -o main -pthread
-
+```
         3.Run the executable using the following command:
-            
+     ```       
             ./main
-
+```
 ## User Instructions
 
 When you run the main executable, the program will create a bounded buffer of size 10 and start a producer and a consumer thread. The producer thread will produce data and add it to the buffer, while the consumer thread will remove data from the buffer and consume it. The producer and consumer threads will synchronize using semaphores to ensure that the buffer is not accessed at the same time.
